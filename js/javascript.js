@@ -32,13 +32,13 @@ function scrollFunction() {
 
 
 // Image List i
-images[0] = "/images/prototype4_1366x768.png";
-images[1] = "/images/prototype2_1366x768.png";
-images[2] = "/images/prototype6_1366x768.png";
-images[3] = "/images/prototype7_1366x768.png";
-images[4] = "/images/prototype3_1366x768.png";
-images[5] = "/images/prototype5_1366x768.png";
-images[5] = "/images/prototype1_1366x768.png";
+images[0] = "./images/prototype4_1366x768.png";
+images[1] = "./images/prototype2_1366x768.png";
+images[2] = "./images/prototype6_1366x768.png";
+images[3] = "./images/prototype7_1366x768.png";
+images[4] = "./images/prototype3_1366x768.png";
+images[5] = "./images/prototype5_1366x768.png";
+images[5] = "./images/prototype1_1366x768.png";
 
 // Change Image
 function changeImg() {
@@ -62,10 +62,10 @@ window.onload = changeImg;
 
 
 // Image List o
-images2[0] = "/images/redesign1_1366x768.png";
-images2[1] = "/images/redesign2_1366x768.png";
-images2[2] = "/images/redesign3_1366x768.png";
-images2[3] = "/images/redesign4_1366x768.png";
+images2[0] = "./images/redesign1_1366x768.png";
+images2[1] = "./images/redesign2_1366x768.png";
+images2[2] = "./images/redesign3_1366x768.png";
+images2[3] = "./images/redesign4_1366x768.png";
 
 // Change Image2
 function changeImg2() {
@@ -90,14 +90,14 @@ window.onload = changeImg2;
 
 
 // Image List a
-images3[0] = "/images/flower-video2_1366x768.png";
-images3[1] = "/images/flower-video3_1366x768.png";
-images3[2] = "/images/flower-video4_1366x768.png";
-images3[3] = "/images/flower-video5_1366x768.png";
-images3[4] = "/images/flower-video6_1366x768.png";
-images3[5] = "/images/flower-video7_1366x768.png";
-images3[6] = "/images/flower-video8_1366x768.png";
-images3[7] = "/images/flower-video_1366x768.png";
+images3[0] = "./images/flower-video2_1366x768.png";
+images3[1] = "./images/flower-video3_1366x768.png";
+images3[2] = "./images/flower-video4_1366x768.png";
+images3[3] = "./images/flower-video5_1366x768.png";
+images3[4] = "./images/flower-video6_1366x768.png";
+images3[5] = "./images/flower-video7_1366x768.png";
+images3[6] = "./images/flower-video8_1366x768.png";
+images3[7] = "./images/flower-video_1366x768.png";
 
 // Change Image3
 function changeImg3() {
@@ -122,17 +122,17 @@ window.onload = changeImg3;
 
 
 // Image List b
-images4[0] = "/images/bike-video_1366x768.png";
-images4[1] = "/images/bike-video2_1366x768.png";
-images4[2] = "/images/bike-video3_1366x768.png";
-images4[3] = "/images/bike-video4_1366x768.png";
-images4[4] = "/images/bike-video5_1366x768.png";
-images4[5] = "/images/bike-video6_1366x768.png";
-images4[6] = "/images/bike-video7_1366x768.png";
-images4[7] = "/images/bike-video8_1366x768.png";
-images4[8] = "/images/bike-video9_1366x768.png";
-images4[9] = "/images/bike-video10_1366x768.png";
-images4[10] = "/images/bike-video11_1366x768.png";
+images4[0] = "./images/bike-video_1366x768.png";
+images4[1] = "./images/bike-video2_1366x768.png";
+images4[2] = "./images/bike-video3_1366x768.png";
+images4[3] = "./images/bike-video4_1366x768.png";
+images4[4] = "./images/bike-video5_1366x768.png";
+images4[5] = "./images/bike-video6_1366x768.png";
+images4[6] = "./images/bike-video7_1366x768.png";
+images4[7] = "./images/bike-video8_1366x768.png";
+images4[8] = "./images/bike-video9_1366x768.png";
+images4[9] = "./images/bike-video10_1366x768.png";
+images4[10] = "./images/bike-video11_1366x768.png";
 
 // Change Image4
 function changeImg4() {
@@ -157,11 +157,11 @@ window.onload = changeImg4;
 
 
 // Image List c
-images5[0] = "/images/totoro-animation_1366x768.png";
-images5[1] = "/images/totoro-animation2_1366x768.png";
-images5[2] = "/images/totoro-animation3_1366x768.png";
-images5[3] = "/images/totoro-animation4_1366x768.png";
-images5[4] = "/images/totoro-animation5_1366x768.png";
+images5[0] = "./images/totoro-animation_1366x768.png";
+images5[1] = "./images/totoro-animation2_1366x768.png";
+images5[2] = "./images/totoro-animation3_1366x768.png";
+images5[3] = "./images/totoro-animation4_1366x768.png";
+images5[4] = "./images/totoro-animation5_1366x768.png";
 
 // Change Image5
 function changeImg5() {
@@ -186,10 +186,10 @@ window.onload = changeImg5;
 
 
 // Image List d
-images6[0] = "/images/ineractive-animation_1366x768.png";
-images6[1] = "/images/ineractive-animation2_1366x768.png";
-images6[2] = "/images/ineractive-animation3_1366x768.png";
-images6[3] = "/images/ineractive-animation4_1366x768.png";
+images6[0] = "./images/ineractive-animation_1366x768.png";
+images6[1] = "./images/ineractive-animation2_1366x768.png";
+images6[2] = "./images/ineractive-animation3_1366x768.png";
+images6[3] = "./images/ineractive-animation4_1366x768.png";
 
 // Change Image6
 function changeImg6() {
@@ -213,11 +213,11 @@ window.onload = changeImg6;
 
 
 // Image List e
-images7[0] = "/images/prototype-rs_1366x768.png";
-images7[1] = "/images/prototype-app-1_1366x768.png";
-images7[2] = "/images/prototype-app-2_1366x768.png";
-images7[3] = "/images/prototype-app-3_1366x768.png";
-images7[4] = "/images/prototype-app-4_1366x768.png";
+images7[0] = "./images/prototype-rs_1366x768.png";
+images7[1] = "./images/prototype-app-1_1366x768.png";
+images7[2] = "./images/prototype-app-2_1366x768.png";
+images7[3] = "./images/prototype-app-3_1366x768.png";
+images7[4] = "./images/prototype-app-4_1366x768.png";
 
 
 

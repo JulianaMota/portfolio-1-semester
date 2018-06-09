@@ -9,7 +9,7 @@
 /*--------home page grid-------------------------------*/
 
 .wrapper {
-    background-image: url(/images/background-cut_3000x2045.png);
+    background-image: url(../images/background-cut_3000x2045.png);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: auto 70%;
@@ -98,7 +98,7 @@
     grid-column: 5/6;
     grid-row: 2/3;
     text-align: center;
-    align-self: end;
+    align-self: flex-end;
     opacity: 0.8;
 }
 
@@ -110,7 +110,7 @@
     grid-column: 5/6;
     grid-row: 3/4;
     text-align: center;
-    align-self: end;
+    align-self: flex-end;
     opacity: 0.6;
 }
 
@@ -134,7 +134,7 @@
 }
 
 .main #laptop-icon {
-    background-image: url(/images/laptop_300x301.png);
+    background-image: url(../images/laptop_300x301.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -178,7 +178,7 @@
 }
 
 .main #camera-icon {
-    background-image: url(/images/video_300x301.png);
+    background-image: url(../images/video_300x301.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -200,7 +200,7 @@
 }
 
 .main #animation-icon {
-    background-image: url(/images/animation_300x301.png);
+    background-image: url(../images/animation_300x301.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -241,7 +241,7 @@
 
 
 .main #ux-icon {
-    background-image: url(/images/ux_300x301.png);
+    background-image: url(../images/ux_300x301.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -314,7 +314,7 @@
 /*---------------------------- grid desktop subpages --------------------------*/
 
 .wrapper-subpages {
-    background-image: url(/images/background_3000x703.png);
+    background-image: url(../images/background_3000x703.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: auto 330px;
@@ -335,7 +335,6 @@
 .header-subpages .logo {
     grid-column: 1/2;
     width: 50px;
-    justify-self: left;
     align-self: center;
     padding-left: 10px;
     padding-top: 10px;
@@ -397,7 +396,7 @@ a {
     grid-column: 4/7;
     grid-row: 1/2;
     text-align: center;
-    align-self: end;
+    align-self: flex-end;
     margin-bottom: 10px;
 }
 
@@ -418,7 +417,7 @@ a {
     grid-template-rows: 200px 100px auto 200px;
     margin-top: -100px;
     grid-gap: 20px;
-    background-image: url(/images/background-subpages_3000x1887.png);
+    background-image: url(../images/background-subpages_3000x1887.png);
     background-size: 100% 100%;
     background-position: center;
 
@@ -669,7 +668,7 @@ iframe {
     grid-area: footer-sub;
     display: grid;
     grid-template-columns: repeat(9, 1fr);
-    background-image: url(/images/background-footer_3000x167.png);
+    background-image: url(../images/background-footer_3000x167.png);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -718,7 +717,7 @@ iframe {
 
 
     .wrapper {
-        background-image: url(/images/background-cut_3000x2045.png);
+        background-image: url(../images/background-cut_3000x2045.png);
         background-position: bottom;
         background-repeat: no-repeat;
         background-size: auto 70%;
@@ -840,7 +839,7 @@ iframe {
     }
     /*------------------------subpages mobile------------------------------------------------------*/
     .wrapper-subpages {
-        background-image: url(/images/background_3000x703.png);
+        background-image: url(../images/background_3000x703.png);
         background-position: top;
         background-repeat: no-repeat;
         background-size: auto 250px;
@@ -887,7 +886,6 @@ iframe {
         width: 130px;
         grid-column: 3/4;
         grid-row: 2/3;
-        justify-self: left;
         align-self: flex-start;
         padding-bottom: 20px;
     }
@@ -1044,12 +1042,12 @@ iframe {
     .hobbies-grid {
         display: grid;
         grid-template-columns: 20% 1fr 20%;
-        grid-template-rows: repeat (4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
         grid-gap: 50px;
         margin-top: 100px;
     }
 
-    .hobbies-grid .draw-circle {
+   .hobbies-grid .draw-circle {
         grid-column: 2/3;
         grid-row: 1/2;
     }
@@ -1074,7 +1072,7 @@ iframe {
         grid-area: footer-sub;
         display: grid;
         grid-template-columns: 15% repeat(3, 1fr);
-        background-image: url(/images/background-footer_3000x167.png);
+        background-image: url(../images/background-footer_3000x167.png);
         background-position: bottom;
         background-repeat: no-repeat;
         background-size: cover;
