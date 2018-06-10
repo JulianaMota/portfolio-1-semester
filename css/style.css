@@ -4,7 +4,14 @@
     margin: 0;
 }
 
-/*-----------------------------Desktop-----------------------------*/
+
+/*-----------------------------Desktop-----------------------------------------------------------------*/
+
+
+
+/*-----------------------------HOME---------------------------------------------------------*/
+
+
 
 /*--------home page grid-------------------------------*/
 
@@ -17,6 +24,8 @@
     grid-template-rows: auto 450px auto;
     grid-template-areas: "header" "main" "footer";
 }
+
+
 
 /*--------header home desktop---------*/
 
@@ -124,6 +133,7 @@
 }
 
 
+
 /*-----------------desktop home main----------*/
 
 .main {
@@ -162,7 +172,7 @@
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bolder;
     padding-bottom: 30px;
 }
@@ -234,9 +244,9 @@
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bolder;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 
@@ -291,14 +301,14 @@
     color: #000;
     font-weight: normal;
     line-height: 1.7;
-    grid-column: 2/3;
+    grid-column: 2/4;
     opacity: 0.6;
     padding-bottom: 5px;
     padding-top: 5px;
 }
 
 .footer .icons-footer {
-    grid-column: 8/10;
+    grid-column: 7/10;
     align-self: center;
     text-align: right;
     padding-right: 10px;
@@ -311,6 +321,13 @@
 
 }
 
+
+
+
+/*-----------------------------SUBPAGES---------------------------------------------------------*/
+
+
+
 /*---------------------------- grid desktop subpages --------------------------*/
 
 .wrapper-subpages {
@@ -322,6 +339,8 @@
     grid-template-rows: auto auto auto;
     grid-template-areas: "header-sub" "main-sub" "footer-sub";
 }
+
+
 
 /*--------------------header subpages-------------------------*/
 
@@ -368,7 +387,10 @@ a {
 }
 
 
+
 /*------------------------mains subpages------------------------------------------------------*/
+
+
 
 /*------------------main-projects-----------------*/
 
@@ -408,6 +430,8 @@ a {
     width: 150px;
     justify-self: center;
 }
+
+
 
 /*---------------projects grid-----------------*/
 
@@ -495,6 +519,13 @@ iframe {
 .bold {
     font-weight: bold;
 }
+
+
+
+
+/*-----------------------------ABOUT---------------------------------------------------------*/
+
+
 
 /*-------------main about-------------------------*/
 
@@ -628,6 +659,8 @@ iframe {
     text-align: justify;
 }
 
+
+
 /*----------hobbies grid---------*/
 
 .hobbies-grid {
@@ -662,6 +695,11 @@ iframe {
     grid-column: 8/9;
 }
 
+
+
+/*-----------------------------SUBPAGES---------------------------------------------------------*/
+
+
 /*--------------------footer subpages-------------------------*/
 
 .footer-subpages {
@@ -691,14 +729,14 @@ iframe {
     color: #000;
     font-weight: normal;
     line-height: 1.7;
-    grid-column: 2/3;
+    grid-column: 2/4;
     opacity: 0.6;
     padding-bottom: 5px;
     padding-top: 5px;
 }
 
 .footer-subpages .icons-footer {
-    grid-column: 9/10;
+    grid-column: 7/10;
     align-self: center;
     text-align: right;
     padding-right: 10px;
@@ -711,11 +749,12 @@ iframe {
 
 }
 
-/*------------------mobile--------------------------*/
+/*------------------MOBILE TABLET------------------------------------------------------------------------------------------*/
 
 @media all and (max-width:769px) {
+    
 
-
+    /*-----------------------------HOME---------------------------------------------------------*/
     .wrapper {
         background-image: url(../images/background-cut_3000x2045.png);
         background-position: bottom;
@@ -725,7 +764,9 @@ iframe {
         grid-template-rows: auto auto auto;
         grid-template-areas: "header" "main" "footer";
     }
-    /*------------- header home mobile -------------------*/
+    
+    
+    /*------------- header home mobile tablet-------------------*/
     .header {
         grid-area: header;
         display: grid;
@@ -771,7 +812,9 @@ iframe {
         z-index: 100;
     }
 
-    /*-------------  main home mobile-----------------*/
+    
+    
+    /*-------------  main home mobile  tablet-----------------*/
     .main {
         grid-area: main;
         display: grid;
@@ -808,11 +851,13 @@ iframe {
         opacity: 0.5;
     }
 
-    /*------------------footer home mobile-----------*/
+    
+    
+    /*------------------footer home mobile tablet-----------*/
     .footer {
         grid-area: footer;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: 20% 1fr 10px 1fr;
         background-color: rgba(255, 255, 255, 0.3);
         background-position: bottom;
     }
@@ -837,7 +882,11 @@ iframe {
     .footer .icons-footer {
         grid-column: 4/5;
     }
-    /*------------------------subpages mobile------------------------------------------------------*/
+    
+    /*-----------------------------SUBPAGES--------------------------------------------------------------*/
+    
+    
+    /*------------------------subpages mobile tablet------------------------------------------------------*/
     .wrapper-subpages {
         background-image: url(../images/background_3000x703.png);
         background-position: top;
@@ -854,7 +903,9 @@ iframe {
         text-align: center;
         margin: 0px;
     }
-    /*------------------main-projects mobile-----------------*/
+    
+    
+    /*------------------main-projects mobile tablet------------------------*/
     .title-sub {
         display: grid;
         grid-template-columns: 25% 1fr 25%;
@@ -872,12 +923,14 @@ iframe {
         width: 150px;
         justify-self: center;
     }
+    
 
-    /*---------------projects grid mobile-----------------*/
+    /*---------------projects grid mobile tablet-----------------*/
+    
     .projects-grid {
         display: grid;
         grid-template-columns: 10% repeat(3, 1fr) 10%;
-        grid-template-rows: 100px repeat(3, auto) 244px auto;
+        grid-template-rows: 100px repeat(3, auto) 100px auto;
         margin-top: 70px;
         grid-gap: 10px;
     }
@@ -924,7 +977,7 @@ iframe {
         margin-top: 0px;
         padding: 10px 10px 10px 10px;
         font-size: 11px;
-        
+
     }
 
     .responsive-slide {
@@ -932,9 +985,13 @@ iframe {
         grid-row: 6/7;
         align-self: center;
     }
+    
+    
 
+    /*-----------------------------ABOUT--------------------------------------------------------*/
 
-    /*-------------main about mobile-------------------------*/
+    
+    /*-------------main about mobile tablet-------------------------*/
     .about-grid {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -1038,7 +1095,7 @@ iframe {
     }
 
 
-    /*----------hobbies grid mobile---------*/
+    /*----------hobbies grid mobile tablet---------*/
     .hobbies-grid {
         display: grid;
         grid-template-columns: 20% 1fr 20%;
@@ -1047,7 +1104,7 @@ iframe {
         margin-top: 100px;
     }
 
-   .hobbies-grid .draw-circle {
+    .hobbies-grid .draw-circle {
         grid-column: 2/3;
         grid-row: 1/2;
     }
@@ -1066,12 +1123,16 @@ iframe {
         grid-column: 2/3;
         grid-row: 4/5;
     }
+    
+    
+    /*-----------------------------SUBPAGES---------------------------------------------------------*/
 
-    /*--------------------footer subpages-------------------------*/
+    
+    /*--------------------footer subpages moblie tablet-------------------------*/
     .footer-subpages {
         grid-area: footer-sub;
         display: grid;
-        grid-template-columns: 15% repeat(3, 1fr);
+        grid-template-columns: 20% 1fr 10px 1fr;
         background-image: url(../images/background-footer_3000x167.png);
         background-position: bottom;
         background-repeat: no-repeat;
